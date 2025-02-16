@@ -44,7 +44,7 @@ export default function AboutSection() {
       </p>
       <div
         id="contact"
-        className="flexGroup justify-evenly text-secondary-900 my-10"
+        className="flexGroup justify-between md:justify-evenly text-secondary-900 my-10"
       >
         {contactList.map((contact) => {
           return <ContactCard contact={contact} key={contact.id} />;
