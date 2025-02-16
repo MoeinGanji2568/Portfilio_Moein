@@ -6,7 +6,7 @@ import PersonPng from "../../../public/image/person.png";
 
 const HeroSection = () => {
   return (
-    <div className="holder text-secondary-900 flexGroup flex-col-reverse xl:flex-row gap-20">
+    <div className="holder text-secondary-900 flexGroup flex-col-reverse xl:flex-row gap-20 my-14">
       <div className=" flex flex-col gap-5">
         <h1 className="font-bold fontSize">
           Hi, I am <br /> Moein Mohsenzadeh Ganji

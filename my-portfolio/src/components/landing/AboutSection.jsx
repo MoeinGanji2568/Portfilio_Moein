@@ -37,7 +37,7 @@ const aboutMe =
 
 export default function AboutSection() {
   return (
-    <div id="about" className="holder my-10 flex flex-col gap-5">
+    <div id="about" className="holder my-20 flex flex-col gap-5">
       <HeadingText className="text-center">About me</HeadingText>
       <p className="text-secondary-600 text-lg leading-loose text-justify">
         {aboutMe}
