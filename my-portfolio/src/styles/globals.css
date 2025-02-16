@@ -59,7 +59,7 @@
   }
 
   .fontSize {
-    font-size: clamp(2rem, 2.5vw + 0.1rem, 3rem);
+    font-size: clamp(1.8rem, 2.5vw + 0.1rem, 3rem);
   }
 
   .rti--container {
