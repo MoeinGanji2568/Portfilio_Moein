@@ -8,8 +8,10 @@ const Header = () => {
     { children: "My Skills", path: "skills" },
   ];
   return (
-    <header className="holder flex justify-between holder py-2 text-secondary-900 mb-12">
-      <h1 className="font-bold text-[20px] lg:text-[30px]">Moein Ganji</h1>
+    <header className="holder flex justify-center md:justify-between holder py-2 text-secondary-900 mb-12">
+      <h1 className="font-bold text-[20px] lg:text-[30px] hidden md:block">
+        Moein Ganji
+      </h1>
       <nav>
         <ul className="flex gap-5 text-base">
           {navLinks.map((navLink, index) => {
