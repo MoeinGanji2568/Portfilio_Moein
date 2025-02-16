@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import Button from "../ui/Button";
 import PersonPng from "../../../public/image/person.png";
-// import MyResumePdf from "../../../public/pdf/MoeinGanji-react-resume.pdf";
 
 const HeroSection = () => {
   return (
@@ -24,7 +23,7 @@ const HeroSection = () => {
           <Button variant="outline">Learn More</Button>
         </div>
       </div>
-      <div>
+      <div className="rounded-full shadow-xl shadow-secondary-100">
         <Image
           style={{ width: "clamp(300px, 50vw, 500px)" }}
           className="h-auto rounded-full"
