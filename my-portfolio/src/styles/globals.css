@@ -89,6 +89,9 @@
     .holder {
       @apply min-w-[350px] max-w-[1300px] mx-auto px-10;
     }
+    .hoverTransition {
+      @apply transition-all duration-300;
+    }
     .btn {
       @apply px-4 py-2  transition-all duration-300;
     }
