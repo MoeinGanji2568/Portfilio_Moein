@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <main>{children}</main>
+        <p className="text-center p-10 text-secondary-600">
+          This is demo of Moein Mohsenzadeh Ganji portfolio
+        </p>
       </body>
     </html>
   );
