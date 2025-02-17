@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../ui/Button";
-import PersonPng from "../../../public/image/person.png";
+import MyImage from "../../../public/image/Moein.jpg";
 
 const HeroSection = () => {
   return (
@@ -26,11 +26,11 @@ const HeroSection = () => {
       <div className="rounded-full shadow-xl shadow-secondary-100">
         <Image
           style={{ width: "clamp(300px, 50vw, 500px)" }}
-          className="h-auto rounded-full"
+          className="h-fit rounded-full"
           alt=""
-          src={PersonPng}
+          src={MyImage}
           width={100}
-          height={50}
+          height={100}
         />
       </div>
     </div>
