@@ -196,4 +196,28 @@
   input[type="number"] {
     -moz-appearance: textfield; /* Firefox */
   }
+  .circle {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: rgb(var(--color-secondary-700));
+    top: 32px;
+    left: -36.8px;
+    margin-bottom: 12.8px;
+  }
+
+  .experience {
+    position: relative;
+  }
+  .experience::before {
+    content: "";
+    position: absolute;
+    left: calc(-2rem - 1px);
+    top: 2rem;
+    height: calc(100% - 2rem);
+    width: 2px;
+    background-color: rgb(var(--color-secondary-400));
+  }
 }
