@@ -57,7 +57,7 @@ export default function AboutSection() {
 function ContactCard({ contact }) {
   return (
     <Link href={contact.address} target={"_blank"}>
-      <div className="flex flex-col gap-2 text-center">
+      <div className="flex flex-col gap-2 text-center hoverTransition hover:scale-105">
         <div
           className="w-[62px] h-[62px] rounded-full 
         bg-secondary-100 flexGroup text-greenBase text-2xl"
