@@ -3,7 +3,7 @@ const techIcons = {
   cssIcon: "/image/icon/css3.png",
   jsIcon: "/image/icon/js.png",
   tsIcon: "/image/icon/typeScript.svg",
-  reactIcon: "/image/icon/react.png",
+  reactIcon: "/image/icon/React.png",
   nextIcon: "/image/icon/next.png",
   viteIcon: "/image/icon/Vite.png",
   tailwindIcon: "/image/icon/tailwind.svg",
