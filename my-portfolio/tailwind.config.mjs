@@ -47,7 +47,7 @@ module.exports = {
         greenBase: withOpacity("--color-greenBase"),
       },
       fontFamily: {
-        sans: ["var(--font-vazir)", ...fontFamily.sans],
+        sans: [...fontFamily.sans],
       },
       container: {
         center: true,
