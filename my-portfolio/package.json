@@ -23,9 +23,12 @@
     "tailwindcss": "^3.4.1"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "last 2 versions",
-    "Firefox ESR"
+    "chrome >= 58",
+    "edge >= 16",
+    "firefox >= 52",
+    "opera >= 45",
+    "safari >= 11",
+    "ios_saf >= 11",
+    "android >= 5"
   ]
 }
